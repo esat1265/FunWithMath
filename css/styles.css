@@ -5,11 +5,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    height: 100%;
+}
 body {
     font-family: 'Poppins', Arial, sans-serif;
     background-color: #f0f2f5;
     color: #333;
+    /* height: 100%;
+    display: flex;
+    flex-direction: column; */
 }
 
 header {
@@ -96,6 +101,7 @@ main {
     max-width: 1200px;
     margin: 2rem auto;
     padding: 0 2rem;
+    flex:1;
 }
 
 .mathpano {
@@ -249,16 +255,9 @@ h2 {
     font-size: 0.7rem;
 }
 
-#quick-quiz {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    max-width: 300px;
-    z-index: 1000;
+.arithmeticAnchor{
+ text-decoration: none;
+ color:#333;
 }
 
 

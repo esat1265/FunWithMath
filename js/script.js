@@ -40,63 +40,63 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 1,
             title: "Grade 1",
             description: "Introduction to basic math concepts including addition and subtraction.",
-            img: "https://example.com/grade1.jpg" // Replace with an actual image link
+            img: "https://example.com/grade1.jpg"
         },
         {
             id: 2,
             title: "Grade 2",
             description: "Focus on number patterns, basic multiplication, and division.",
-            img: "https://example.com/grade2.jpg" // Replace with an actual image link
+            img: "https://example.com/grade2.jpg" 
         },
         {
             id: 3,
             title: "Grade 3",
             description: "Exploring fractions, measurement, and the introduction of geometry.",
-            img: "https://example.com/grade3.jpg" // Replace with an actual image link
+            img: "https://example.com/grade3.jpg" 
         },
         {
             id: 4,
             title: "Grade 4",
             description: "Advanced multiplication and division, as well as basic algebra concepts.",
-            img: "https://example.com/grade4.jpg" // Replace with an actual image link
+            img: "https://example.com/grade4.jpg" 
         },
         {
             id: 5,
             title: "Grade 5",
             description: "Introduction to decimals, percentages, and more complex geometrical shapes.",
-            img: "https://example.com/grade5.jpg" // Replace with an actual image link
+            img: "https://example.com/grade5.jpg" 
         },
         {
             id: 6,
             title: "Grade 6",
             description: "Exploring ratios, proportions, and basic statistics.",
-            img: "https://example.com/grade6.jpg" // Replace with an actual image link
+            img: "https://example.com/grade6.jpg" 
         },
         {
             id: 7,
             title: "Grade 7",
             description: "Introduction to algebraic expressions, equations, and basic probability.",
-            img: "https://example.com/grade7.jpg" // Replace with an actual image link
+            img: "https://example.com/grade7.jpg" 
         },
         {
             id: 8,
             title: "Grade 8",
             description: "Focus on functions, linear equations, and the Pythagorean theorem.",
-            img: "https://example.com/grade8.jpg" // Replace with an actual image link
+            img: "https://example.com/grade8.jpg" 
         },
         {
             id: 9,
             title: "Grade 9",
             description: "Advanced algebra, including quadratic equations and the basics of trigonometry.",
-            img: "https://example.com/grade9.jpg" // Replace with an actual image link
+            img: "https://example.com/grade9.jpg" 
         }
     ];
 
     const graderows = document.getElementById("graderows");
 
-    let html = "";
+    let gradeText = "";
     classes.map((grade) => {
-        html += `<div class="col-sm-12 col-md-6 col-lg-3 mb-1">
+        gradeText += `<div class="col-sm-12 col-md-6 col-lg-3 mb-1">
                     <div class="card">
                         <img src="../img/demoMath.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -106,8 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     </div>
                 </div>`;
-        console.log(html);
-        return html;
+        return gradeText;
     })
-    graderows.insertAdjacentHTML("beforeend", html); 
+    graderows.insertAdjacentHTML("beforeend", gradeText); 
 })
