@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FunWithMath - Fun Math Learning for Kids</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="icon">➕➖✖️➗</span>
+                FunWithMath
+            </div>
+            <ul>
+                <li><a href="#home" class="active"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="#classes"><i class="fas fa-chalkboard-teacher"></i>Classes</a></li>
+                <li><a href="#games"><i class="fas fa-trophy"></i>Games</a></li>
+            </ul>
+            <!-- <div class="user-info">
+                <span class="user-name">Mustafa</span>
+                <div class="user-avatar"></div>
+            </div> -->
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="active">
+            <div class="mathpano">
+                <h3><em><p>"Sometimes math seems hard, </p><p>But the people who enjoy it are not the ones who find it easy.</p><p>They are the ones who like the challenge."</p></em></h3><p> </p>
+            </div><br>
+            <h1>Mathematic Topics</h1>
+            <p>There are <span class="highlight">4 topics</span> available in mathematics.</p>
+            
+            <div class="topic-cards">
+                <div class="topic-card">
+                    <div class="topic-icon" style="background-color: #e6e6ff;">🚀</div>
+                    <h3>Arithmetics</h3>
+                    <p>Basic arithmetic involves mostly the concepts of addition, subtraction, multiplication, and division</p>
+                    <a class="btn btn-primary" href="../pages/arithmetics.html" role="button">View →</a>
+                    <!-- <button class="view-btn">View →</button> -->
+                </div>
+                <div class="topic-card">
+                    <div class="topic-icon" style="background-color: #e6e6ff;">📊</div>
+                    <h3>Fractions</h3>
+                    <p>Understanding what fractions, decimals, and percentages mean is essential to be able to calculate </p>
+                    <a class="btn btn-primary" href="../pages/fractions.html" role="button">View →</a>
+                    <!-- <button class="view-btn">View →</button> -->
+                </div>
+                <div class="topic-card">
+                    <div class="topic-icon" style="background-color: #e6ffee;">📐</div>
+                    <h3>Measurement</h3>
+                    <p>Learning about different units and understanding how to compare and order measurements</p>
+                    <a class="btn btn-primary" href="../pages/measurement.html" role="button">View →</a>
+                    <!-- <button class="view-btn">View →</button> -->
+                </div>
+                <div class="topic-card">
+                    <div class="topic-icon" style="background-color: #e6ffee;">🔢</div>
+                    <h3>Geometry</h3>
+                    <p>Identifying and describing shapes and exploring symmetry, rotations, and patterns in shapes</p>
+                    <a class="btn btn-primary" href="../pages/geometry.html" role="button">View →</a>
+                    <!-- <button class="view-btn">View →</button> -->
+                </div>
+            </div>
+
+            <h2>All Topics</h2>
+            <p>These topics will be available soon.</p>
+            <div class="all-topics">
+                <div class="topic-item">
+                    <div class="topic-icon" style="background-color: #f0e6ff;">🧮</div>
+                    <h3>Algebraic Manipulation</h3>
+                    <div class="topic-info">
+                        <span>14 LESSONS</span>
+                    </div>
+                </div>
+                <div class="topic-item">
+                    <div class="topic-icon" style="background-color: #e6f2ff;">🌳</div>
+                    <h3>Sequences</h3>
+                    <div class="topic-info">
+                        <span>32 LESSONS</span>
+                    </div>
+                </div>
+                <div class="topic-item">
+                    <div class="topic-icon" style="background-color: #fff0e6;">🎭</div>
+                    <h3>Functions</h3>
+                    <div class="topic-info">
+                        <span>8 LESSONS</span>
+                    </div>
+                </div>
+                <div class="topic-item">
+                    <div class="topic-icon" style="background-color: #e6ffe6;">⚖️</div>
+                    <h3>Expressions & Inequalities</h3>
+                    <div class="topic-info">
+                        <span>14 LESSONS</span>
+                    </div>
+                </div>
+                <div class="topic-item">
+                    <div class="topic-icon" style="background-color: #ffe6f2;">🎯</div>
+                    <h3>Approximation</h3>
+                    <div class="topic-info">
+                        <span>19 LESSONS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="classes">
+            <div class="container">
+                <h2>Classes</h2>
+                <p>You can find out more information about classes curriculum.</p>
+                <div class="row" id="graderows"></div>     
+            </div>
+        </section>
+
+        <section id="games">
+            <h2>Games</h2>
+            <!-- <p>This section will display the games.</p> -->
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.mathgames.com/" title="Games" allowfullscreen></iframe>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 FunWithMath. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
