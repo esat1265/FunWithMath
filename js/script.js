@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="card-body">
                             <h5 class="card-title">${grade.title}</h5>
                             <p class="card-text">${grade.description}</p>
-                            <a href="#" class="btn btn-primary">Go to class</a>
+                            <a href="curriculum.html" class="btn btn-primary">Go to class</a>
                         </div>
                     </div>
                 </div>`;
